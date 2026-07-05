@@ -10,3 +10,9 @@ Main reading site:
 
 https://adamchanadam.github.io/adam-startup-memoir/
 
+Download entries:
+
+- Traditional Chinese EPUB: https://adamchanadam.github.io/adam-startup-memoir/downloads/adam_chan_startup_memoir.epub
+- Traditional Chinese PDF: https://adamchanadam.github.io/adam-startup-memoir/downloads/adam_chan_startup_memoir.pdf
+- English EPUB: https://adamchanadam.github.io/adam-startup-memoir/downloads/adam_chan_startup_memoir_en.epub
+- English PDF: https://adamchanadam.github.io/adam-startup-memoir/downloads/adam_chan_startup_memoir_en.pdf
