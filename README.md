@@ -10,6 +10,10 @@ Main reading site:
 
 https://adamchanadam.github.io/adam-startup-memoir/
 
+Other page:
+
+- `/profile/` (https://memoir.cobeing.uk/profile/): Adam Chan's interactive profile. Its source of truth is the BCR3 workspace (`knowledge-base/adam-shadow/bio/interactive_cv/`, rules in `MAINTENANCE.md`). Do not edit `profile/` here; rebuild it with `python check_cv.py --build <this repo>/profile` from that folder.
+
 Download entries:
 
 - Traditional Chinese EPUB: https://adamchanadam.github.io/adam-startup-memoir/downloads/adam_chan_startup_memoir.epub

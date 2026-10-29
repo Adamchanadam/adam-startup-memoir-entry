@@ -1,0 +1,888 @@
+<!doctype html>
+<!-- 修改前先讀同目錄 MAINTENANCE.md；改完必須執行 python check_cv.py，通過後才可發佈。 -->
+<html lang="zh-Hant-HK">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>陳駿霖 Adam Chan · 互動履歷</title>
+<meta name="description" content="陳駿霖 Adam Chan，AI 生活策展人。從事教育科技工作逾 25 年，前 GRWTH 聯合創辦人及行政總裁，現居英國。">
+<meta name="color-scheme" content="light">
+<!-- 社交預覽（WhatsApp 等）：網址必須是正式公開網址；圖片 1200×630 JPEG，與 og-preview.jpg 實際尺寸一致 -->
+<link rel="canonical" href="https://memoir.cobeing.uk/profile/">
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="Adam Chan">
+<meta property="og:title" content="陳駿霖 Adam Chan｜AI 生活策展人">
+<meta property="og:description" content="從事教育科技工作逾 25 年，前 GRWTH 聯合創辦人及行政總裁，現居英國。由 1998 年自學設計到今天，一頁看完我的作品、項目和報導。">
+<meta property="og:url" content="https://memoir.cobeing.uk/profile/">
+<meta property="og:image" content="https://memoir.cobeing.uk/profile/og-preview.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="陳駿霖 Adam Chan，AI 生活策展人，旁邊是他手持平板的圓形頭像">
+<meta property="og:locale" content="zh_HK">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&family=Noto+Serif+TC:wght@400;600;900&family=LXGW+WenKai+TC&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Adam Chan",
+  "alternateName": "陳駿霖",
+  "jobTitle": "AI 生活策展人",
+  "email": "mailto:i.adamchan@gmail.com",
+  "sameAs": ["https://www.facebook.com/chan.adam"],
+  "knowsAbout": ["Education Technology", "Product Design", "Generative AI", "Business Transformation"],
+  "alumniOf": [],
+  "worksFor": {"@type": "Organization", "name": "明報集團 WAW Creation（顧問）"}
+}
+</script>
+<style>
+:root{
+  --paper:#FBFBF8;
+  --ink:#1C2140;
+  --muted:#5A6075;
+  --line:#DADDE5;
+  --blue:#2347A6;
+  --teal:#0E7A7E;
+  --yellow:#F3BF12;
+  --red:#D23A2C;
+  --serif:"Noto Serif TC","Songti TC","PMingLiU",serif;
+  --latin:"Jost","Futura","Avenir Next",sans-serif;
+  --hand:"LXGW WenKai TC","Kaiti TC","DFKai-SB",cursive;
+  --gutter:clamp(40px,11vw,150px);
+  --measure:34em;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:18px;line-height:1.9;font-weight:400;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+img{display:block;max-width:100%;height:auto}
+a{color:var(--blue);text-decoration-thickness:1px;text-underline-offset:.22em}
+a:hover{color:var(--red)}
+:focus-visible{outline:3px solid var(--yellow);outline-offset:3px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--ink);color:#fff;padding:8px 14px;z-index:99}
+.skip:focus{left:8px}
+.latin{font-family:var(--latin)}
+
+/* ---------- top bar ---------- */
+.bar{position:sticky;top:0;z-index:30;display:flex;align-items:center;gap:20px;padding:10px var(--gutter) 10px 20px;background:rgba(251,251,248,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);font-size:15px;line-height:1.4}
+.bar-name{font-family:var(--latin);font-weight:500;letter-spacing:.02em;color:var(--ink);text-decoration:none;white-space:nowrap}
+.bar-nav{display:flex;gap:18px;overflow-x:auto;scrollbar-width:none;flex:1}
+.bar-nav a{color:var(--muted);text-decoration:none;white-space:nowrap}
+.bar-nav a:hover{color:var(--blue)}
+.bar-tools{display:flex;gap:8px;flex:none}
+.btn{font:inherit;font-size:14px;border:1px solid var(--ink);background:transparent;color:var(--ink);padding:5px 12px;border-radius:999px;cursor:pointer;white-space:nowrap}
+.btn:hover{background:var(--ink);color:var(--paper)}
+.btn[aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:#fff}
+.progress{position:absolute;left:0;bottom:-1px;height:2px;width:100%;background:var(--yellow);transform-origin:0 50%;transform:scaleX(0)}
+
+/* ---------- layout ---------- */
+main{position:relative;padding-left:var(--gutter);padding-right:clamp(20px,5vw,72px)}
+.thread{position:absolute;left:0;top:0;width:var(--gutter);pointer-events:none;overflow:visible;z-index:1}
+.thread-base{fill:none;stroke:var(--line);stroke-width:1.2;stroke-dasharray:2 7;stroke-linecap:round}
+.thread-ink{fill:none;stroke:var(--blue);stroke-width:2.2;stroke-linecap:round}
+.star{opacity:.18;transform-box:fill-box;transform-origin:center;transition:opacity .4s,transform .5s cubic-bezier(.3,1.6,.5,1);transform:scale(.6)}
+.star.lit{opacity:1;transform:scale(1)}
+.knot{position:absolute;left:calc(var(--gutter) * -0.5);top:.9em;width:1px;height:1px}
+section{position:relative;padding:clamp(72px,12vh,140px) 0}
+.chapter-head{position:relative;margin-bottom:48px}
+.years{font-family:var(--latin);font-weight:300;font-size:clamp(44px,8vw,104px);line-height:1;color:var(--blue);letter-spacing:-.02em;margin:0}
+.chapter-title{font-weight:900;font-size:clamp(28px,4.2vw,48px);line-height:1.3;margin:.3em 0 0}
+.lede{max-width:var(--measure);font-size:20px;color:var(--ink);margin:24px 0 0}
+.story{max-width:var(--measure)}
+.story p{margin:0 0 1.1em}
+.note{font-family:var(--hand);color:var(--teal);font-size:20px;line-height:1.6;transform:rotate(-1.5deg);display:inline-block;max-width:22em}
+.facts{list-style:none;padding:0;margin:32px 0 0;max-width:42em;border-top:1px solid var(--line)}
+.facts li{display:grid;grid-template-columns:6.2em 1fr;gap:16px;padding:12px 0;border-bottom:1px solid var(--line);font-size:16px;line-height:1.7}
+.facts b{font-family:var(--latin);font-weight:500;color:var(--blue)}
+body[data-mode="facts"] .story,body[data-mode="facts"] .lede-story{display:none}
+
+/* figures */
+.fig{margin:0;position:relative}
+.fig button{all:unset;cursor:zoom-in;display:block;width:100%}
+.fig button:focus-visible{outline:3px solid var(--yellow);outline-offset:4px}
+.fig img{width:100%;background:#eee}
+.fig figcaption{font-size:14px;line-height:1.6;color:var(--muted);margin-top:10px;max-width:40em}
+.fig figcaption b{color:var(--ink);font-weight:600}
+.split{display:grid;grid-template-columns:minmax(0,34em) minmax(0,1fr);gap:clamp(28px,5vw,80px);align-items:start}
+.split > .fig{margin-top:12px}
+.wide{margin:56px 0 0}
+.duo{display:grid;grid-template-columns:1.3fr 1fr;gap:24px;margin-top:56px;align-items:end}
+
+/* hero */
+.hero{min-height:calc(100vh - 52px);display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.9fr);gap:clamp(24px,5vw,72px);align-items:center;padding-top:40px;padding-bottom:64px}
+.hero .knot{top:2.2em}
+.hero-name{margin:0;font-weight:900;font-size:clamp(64px,13vw,176px);line-height:.98;letter-spacing:.02em}
+.hero-name .char{display:inline-block}
+.hero-en{font-family:var(--latin);font-weight:300;font-size:clamp(26px,3.6vw,46px);margin:14px 0 0;letter-spacing:.01em}
+.hero-role{display:inline-block;margin-top:18px;font-size:18px;font-weight:600;background:var(--yellow);padding:2px 12px}
+.hero-sum{max-width:30em;margin:28px 0 0;font-size:18px;color:var(--muted)}
+.hero-quote{margin:36px 0 0;font-family:var(--hand);font-size:24px;line-height:1.5;color:var(--ink)}
+.hero-quote small{display:block;font-family:var(--serif);font-size:14px;color:var(--muted);margin-top:6px}
+.portrait{position:relative}
+.portrait img{width:100%;aspect-ratio:1;object-fit:cover;clip-path:circle(50% at 50% 50%)}
+.portrait .deco{position:absolute;inset:-12%;width:124%;height:124%;pointer-events:none}
+.plane{position:absolute;right:4%;top:-6%;width:76px;color:var(--blue)}
+.dna{margin-top:40px;display:flex;gap:10px;align-items:center;font-size:14px;color:var(--muted)}
+.dna i{width:18px;height:18px;display:inline-block}
+
+/* counters */
+.stats{display:flex;flex-wrap:wrap;gap:clamp(24px,5vw,64px);margin:56px 0 0}
+.stat{min-width:9em}
+.stat b{display:block;font-family:var(--latin);font-weight:400;font-size:clamp(40px,6vw,72px);line-height:1;color:var(--ink)}
+.stat > span{font-size:15px;line-height:1.5;color:var(--muted);display:block;margin-top:8px;max-width:13em}
+.stat:nth-child(1) b{color:var(--blue)}
+.stat:nth-child(2) b{color:var(--teal)}
+.stat:nth-child(3) b{color:var(--red)}
+
+/* retro window */
+.retro{margin-top:56px;max-width:420px;border:2px solid var(--ink);background:#E9E9E6;box-shadow:6px 6px 0 var(--yellow)}
+.retro-bar{display:flex;justify-content:space-between;align-items:center;background:var(--blue);color:#fff;font-family:var(--latin);font-size:13px;padding:3px 8px}
+.retro-bar span:last-child{letter-spacing:4px}
+.retro-stage{background:#fff;margin:6px;border:1px solid #9a9a9a;overflow:hidden}
+.retro-stage button{all:unset;display:block;width:100%;cursor:zoom-in}
+.retro-stage button:focus-visible{outline:3px solid var(--yellow)}
+.retro-stage img{width:100%}
+.retro-cap{font-size:13px;padding:2px 10px 8px;color:var(--muted);line-height:1.5}
+
+/* GRWTH horizontal track */
+.grwth{background:var(--paper);z-index:2}
+.track-wrap{overflow:hidden;margin-right:calc(clamp(20px,5vw,72px) * -1)}
+.track{display:flex;gap:0;width:max-content}
+.yr{width:min(520px,78vw);padding:0 clamp(24px,3vw,44px);border-left:1px solid var(--line);display:flex;flex-direction:column;gap:14px}
+.yr:first-child{border-left:0;padding-left:0}
+.yr-num{font-family:var(--latin);font-weight:300;font-size:64px;line-height:1;color:var(--blue)}
+.yr:nth-child(3n+2) .yr-num{color:var(--teal)}
+.yr:nth-child(3n) .yr-num{color:var(--red)}
+.yr h3{margin:0;font-size:22px;line-height:1.5;font-weight:600}
+.yr p{margin:0;font-size:16px;line-height:1.8}
+.yr ul{margin:0;padding-left:1.1em;font-size:15px;line-height:1.7;color:var(--muted)}
+.yr .fig img{aspect-ratio:16/10;max-height:34vh;object-fit:cover}
+.yr:nth-child(even) .fig img{aspect-ratio:3/2}
+.track .yr.yr-end .yr-num{color:var(--teal)}
+.next-link{align-self:flex-start;font-weight:600;color:var(--teal);text-decoration:none;border-bottom:2px solid var(--yellow);padding-bottom:2px}
+.next-link:hover{color:var(--blue)}
+.book-link{display:inline-block;margin-top:8px}
+.yr-end blockquote{margin:6px 0;padding:4px 0 4px 18px;border-left:4px solid var(--yellow);font-family:var(--hand);font-size:24px;line-height:1.6;color:var(--ink)}
+.hint{font-size:14px;color:var(--muted);margin:0 0 20px}
+
+/* awards */
+.awards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:28px 24px;margin-top:48px}
+.awards .fig img{aspect-ratio:4/3;object-fit:cover}
+.sub{font-size:22px;font-weight:600;margin:64px 0 0}
+.gallery{margin-top:24px}
+.pair{display:flex;gap:6px;align-items:flex-start}
+.pair .fig{min-width:0}
+.yr .pair .fig img{aspect-ratio:auto;max-height:none}
+
+/* press wall */
+.press-tools{display:flex;gap:8px;margin:0 0 28px}
+.press{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:18px}
+.press-item{margin:0}
+.press-item button{all:unset;cursor:zoom-in;display:block;width:100%}
+.press-item button:focus-visible{outline:3px solid var(--yellow);outline-offset:3px}
+.press-item img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:top;background:#eee}
+.press-item .meta{font-size:13px;line-height:1.5;margin-top:8px;color:var(--muted)}
+.press-item .meta b{display:block;font-family:var(--latin);font-weight:500;color:var(--blue);font-size:13px}
+.press-item:nth-child(5n+2) img{aspect-ratio:1}
+.press-item:nth-child(7n+4) img{aspect-ratio:4/3}
+.press[data-view="list"]{grid-template-columns:1fr;gap:0;max-width:52em;border-top:1px solid var(--line)}
+.press[data-view="list"] .press-item button{display:grid;grid-template-columns:84px 1fr;gap:18px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}
+.press[data-view="list"] .press-item img{aspect-ratio:1;width:84px}
+.press[data-view="list"] .press-item .meta{margin:0;font-size:15px;color:var(--ink)}
+
+/* second life */
+.second{color:var(--ink)}
+.second .years{color:var(--teal)}
+.roles{list-style:none;padding:0;margin:40px 0 0;max-width:44em}
+.roles li{padding:18px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:7em 1fr;gap:18px;line-height:1.7}
+.roles li > b{font-family:var(--latin);font-weight:500;color:var(--teal)}
+.roles strong{font-weight:600;display:block}
+.roles span{font-size:15px;color:var(--muted)}
+.miro{width:min(360px,70vw);margin:48px 0 0}
+
+/* values */
+.values{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:40px;margin-top:40px;max-width:64em}
+.value h3{margin:0 0 10px;font-size:26px;font-weight:900}
+.value blockquote{margin:0;font-family:var(--hand);font-size:20px;line-height:1.65}
+.value p{font-size:14px;color:var(--muted);margin:10px 0 0}
+.value:nth-child(1) h3{color:var(--blue)}
+.value:nth-child(2) h3{color:var(--red)}
+.value:nth-child(3) h3{color:var(--teal)}
+
+/* ask */
+.ask{max-width:44em;margin-top:32px;border-top:1px solid var(--line)}
+.ask details{border-bottom:1px solid var(--line)}
+.ask summary{cursor:pointer;list-style:none;padding:18px 40px 18px 0;font-weight:600;font-size:19px;position:relative}
+.ask summary::-webkit-details-marker{display:none}
+.ask summary::after{content:"";position:absolute;right:6px;top:50%;width:14px;height:14px;margin-top:-7px;background:linear-gradient(var(--blue),var(--blue)) center/14px 2px no-repeat,linear-gradient(var(--blue),var(--blue)) center/2px 14px no-repeat;transition:transform .3s}
+.ask details[open] summary::after{transform:rotate(45deg)}
+.ask .ans{padding:0 0 22px;font-size:17px}
+.ask .ans p{margin:0 0 .8em}
+.small{font-size:14px;color:var(--muted)}
+
+/* contact & footer */
+.contact{display:flex;flex-wrap:wrap;gap:16px 40px;margin-top:28px;font-size:19px}
+
+/* lightbox */
+dialog.lb{border:0;padding:0;max-width:min(1100px,94vw);max-height:92vh;background:var(--paper);color:var(--ink)}
+dialog.lb::backdrop{background:rgba(28,33,64,.82)}
+.lb-inner{display:flex;flex-direction:column;max-height:92vh}
+.lb img{max-height:76vh;width:auto;max-width:100%;margin:0 auto;object-fit:contain}
+.lb-cap{padding:14px 20px;font-size:15px;line-height:1.6;display:flex;gap:16px;justify-content:space-between;align-items:flex-start;flex-wrap:wrap}
+.lb-close{position:absolute;right:10px;top:10px;background:var(--paper);z-index:2}
+.lb-vid{width:min(1000px,94vw);aspect-ratio:16/9;border:0;display:block;background:#000}
+.lb-vid[hidden],.lb img[hidden]{display:none}
+.lb-actions{display:flex;gap:14px;align-items:center}
+
+/* case study */
+.case{margin-top:80px;padding-top:44px;border-top:2px solid var(--ink)}
+.case-title{margin:0 0 32px;font-size:clamp(22px,2.6vw,30px);font-weight:900;line-height:1.45;max-width:30em}
+.case-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:clamp(28px,4vw,56px);align-items:start}
+.case-proof{display:grid;gap:28px}
+.video button{position:relative;cursor:pointer}
+.video img{aspect-ratio:16/9;object-fit:cover}
+.play{position:absolute;left:50%;top:50%;width:84px;height:84px;margin:-42px 0 0 -42px;border-radius:50%;background:var(--yellow);box-shadow:0 0 0 8px rgba(243,191,18,.3);transition:transform .25s}
+.play::after{content:"";position:absolute;left:34px;top:26px;border-style:solid;border-width:16px 0 16px 26px;border-color:transparent transparent transparent var(--ink)}
+.video button:hover .play{transform:scale(1.08)}
+.vid-card{all:unset;box-sizing:border-box;cursor:pointer;display:grid;grid-template-columns:132px 1fr;gap:14px;align-items:center;padding:8px;border:1.5px solid var(--ink);background:#fff;box-shadow:4px 4px 0 var(--yellow);transition:transform .2s,box-shadow .2s}
+.vid-card:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--yellow)}
+.vid-card:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+.vid-thumb{position:relative;display:block}
+.vid-thumb img{width:132px;aspect-ratio:16/9;object-fit:cover}
+.play-sm{width:38px;height:38px;margin:-19px 0 0 -19px;box-shadow:0 0 0 4px rgba(243,191,18,.35)}
+.play-sm::after{left:15px;top:11px;border-width:8px 0 8px 13px}
+.vid-text{display:flex;flex-direction:column;font-size:15px;line-height:1.5}
+.vid-text b{color:var(--blue);font-weight:600}
+.vid-text span{font-size:13px;color:var(--muted)}
+@media (max-width:900px){.case-grid{grid-template-columns:1fr}}
+
+/* responsive */
+@media (max-width:900px){
+  .hero{grid-template-columns:1fr;min-height:auto}
+  .portrait{max-width:340px;order:-1}
+  .split,.duo{grid-template-columns:1fr}
+  .track-wrap{overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding-bottom:12px}
+  .yr{scroll-snap-align:start}
+  .bar{padding-right:20px}
+}
+@media (max-width:600px){
+  body{font-size:17px}
+  :root{--gutter:34px}
+  .bar-nav{display:none}
+  .facts li,.roles li{grid-template-columns:1fr;gap:2px}
+  .press{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .stat{min-width:40%}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .star{transition:none}
+}
+@media print{
+  @page{size:A4;margin:16mm 14mm}
+  body{font-size:11pt;line-height:1.6;background:#fff}
+  .bar,.thread,.retro,.press-tools,.hint,.plane,.portrait .deco,dialog,.case-proof,.video,.vid-card,.sub,.ask summary::after,.miro{display:none !important}
+  main{padding:0}
+  section{padding:18pt 0;break-inside:auto}
+  .hero{display:flex;flex-direction:row-reverse;justify-content:space-between;align-items:flex-start;gap:8mm;min-height:0;padding:0}
+  .portrait{width:36mm;flex:none;order:0}
+  .plane{display:none}
+  .hero-name{font-size:40pt}
+  .hero-name .char,.hero-en,.hero-role{opacity:1 !important;transform:none !important}
+  .portrait img{clip-path:circle(50% at 50% 50%) !important}
+  .grwth{background:none}
+  .pin-spacer{padding:0 !important;height:auto !important;min-height:0 !important}
+  #grwth{position:static !important;transform:none !important;width:auto !important;max-width:none !important;inset:auto !important}
+  details::details-content{content-visibility:visible;display:block}
+  .story{display:none}
+  .track-wrap{overflow:visible;margin:0}
+  .track{display:block;width:auto;transform:none !important}
+  .yr{width:auto;border:0;padding:0 0 8pt;display:block}
+  .yr .fig,.awards,.press,.duo,.wide,.split > .fig{display:none}
+  .split{display:block}
+  .ask details{display:block}
+  .ask details > *{display:block}
+  a{color:inherit;text-decoration:none}
+}
+</style>
+</head>
+<body data-mode="story">
+<a class="skip" href="#main">跳到內容</a>
+
+<header class="bar">
+  <a class="bar-name" href="#top">Adam Chan</a>
+  <nav class="bar-nav" aria-label="章節">
+    <a href="#craft">創作起點</a>
+    <a href="#myid">myID</a>
+    <a href="#grwth">GRWTH</a>
+    <a href="#press">媒體報導</a>
+    <a href="#fpv">FPV</a>
+    <a href="#second">第二人生</a>
+    <a href="#ask">問 Adam</a>
+  </nav>
+  <div class="bar-tools">
+    <button class="btn" id="modeBtn" aria-pressed="false" title="收起長文，只留年份和重點">只看重點</button>
+    <button class="btn" id="printBtn">列印</button>
+  </div>
+  <span class="progress" aria-hidden="true"></span>
+</header>
+
+<main id="main">
+  <svg class="thread" aria-hidden="true"><path class="thread-base"/><path class="thread-ink"/><g class="stars"></g></svg>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <span class="knot" data-star="red"></span>
+    <div>
+      <h1 class="hero-name" aria-label="陳駿霖">陳駿霖</h1>
+      <p class="hero-en">Adam Chan</p>
+      <span class="hero-role">AI 生活策展人</span>
+      <p class="hero-sum">從事教育科技工作逾 25 年。由 18 歲自學網頁設計的少年，做到電子校園公司總經理，再與夥伴聯合創立 GRWTH，把學校、家庭和社區接成一個教育生態圈。現居英國，把 AI 帶進生活、學習和工作。</p>
+      <p class="hero-quote">「真正重要的東西，用眼睛是看不見的。」<small>《小王子》，陪我走過整段創業路的一本書</small></p>
+      <p class="dna"><i style="background:var(--paper);border:1px solid var(--line)"></i><i style="background:var(--blue)"></i><i style="background:var(--yellow)"></i> 這頁的配色，取自我 1998/99 年設計 TCP 教師平台小冊子時寫下的理念：大面積白底、藍色主色、黃色點綴。</p>
+    </div>
+    <div class="portrait">
+      <img src="img/p01_1.webp" width="801" height="801" alt="Adam Chan 坐在窗邊，手持平板電腦" fetchpriority="high">
+      <svg class="deco" viewBox="0 0 124 124" aria-hidden="true">
+        <circle cx="104" cy="22" r="7" fill="var(--yellow)"/>
+        <circle cx="16" cy="98" r="4" fill="var(--red)"/>
+        <path d="M8 40 C 2 70, 20 110, 60 118" fill="none" stroke="var(--ink)" stroke-width=".8"/>
+        <g stroke="var(--ink)" stroke-width="1" transform="translate(108 96)"><path d="M-6 0H6M0-6V6M-4-4L4 4M-4 4L4-4"/></g>
+      </svg>
+      <svg class="plane" viewBox="0 0 64 40" aria-hidden="true"><path d="M2 20 L62 2 L40 38 L30 24 Z M30 24 L62 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+    </div>
+  </section>
+
+  <!-- CRAFT -->
+  <section id="craft">
+    <div class="chapter-head">
+      <span class="knot" data-star="yellow"></span>
+      <p class="years">1998–2002</p>
+      <h2 class="chapter-title">由打字員到設計師，再到寫書的人</h2>
+    </div>
+    <div class="split">
+      <div>
+        <div class="story">
+          <p>18 歲那年，我在阿姨的 IT 公司由中文打字員做起，再自學平面和網頁設計。灣仔電腦中心買回來的《Photoshop 4.0 Wow Book》是我的天書，每時每刻都在讀。第一次學 CMYK 對色、第一次收到印刷成品，那份興奮我到今天仍然記得。</p>
+          <p>1999 年，我把寵物、小遊戲和 Flash 動畫放在一起，做了個人作品「動の物」，憑它在網頁設計比賽得獎，也得到《電腦廣場》跨頁專訪。之後我進了衛星電視台做網頁設計，一年間由設計師做到高級設計師。</p>
+          <p>2000 年，萬里機構邀請我把這些技法寫成書。一年後，《Flash 動之物世界》出版。Flash 早已成為上世紀的古董，那本書卻是我留給自己的時代紀念品。</p>
+          <p class="note">自己開設計公司那兩年，我嘗到「手停口停」的滋味，也開始問：一盤生意，怎樣才可以走得長遠？</p>
+        </div>
+        <ul class="facts">
+          <li><b>1998</b><span>資訊科技公司文員，自修網頁設計；設計 TCP 教師平台小冊子</span></li>
+          <li><b>1999</b><span>個人 Flash 作品「動の物」於網頁設計比賽獲獎，獲《電腦廣場》跨頁專訪</span></li>
+          <li><b>1999–2000</b><span>衛星電視台網頁設計師，晉升高級設計師</span></li>
+          <li><b>2001</b><span>著作《Flash 動之物世界》由萬里機構出版（ISBN 9621420288）</span></li>
+          <li><b>2001–2002</b><span>自設小型設計公司，為商業機構及政府部門製作互動課件</span></li>
+          <li><b>2002–2003</b><span>香港教育署課程發展小組 IT 項目顧問，設計及開發 Flash 教育軟件</span></li>
+        </ul>
+      </div>
+      <figure class="fig">
+        <button data-lb data-cap="《Flash 動之物世界》封面及封底，萬里機構，2001 年。">
+          <img src="img/p20_1.webp" width="1005" height="649" alt="《Flash 動之物世界》書本封面及封底" loading="lazy">
+        </button>
+        <figcaption><b>《Flash 動之物世界》</b>萬里機構，2001 年。精彩網頁系列。</figcaption>
+        <div class="retro" aria-label="向 1999 年的動の物致敬的小動畫">
+          <div class="retro-bar"><span>動の物.swf</span><span aria-hidden="true">_□×</span></div>
+          <div class="retro-stage">
+            <button data-lb data-cap="「動の物」網站原作畫面：入場券售賣機，以及多人遊戲《馬拉松》測試版。">
+              <img src="img/dongwu_1999.webp" width="1237" height="882" alt="動の物網站原作畫面：藍色入場券售賣機、硬幣和一隻乳牛" loading="lazy">
+            </button>
+          </div>
+          <p class="retro-cap">「動の物」原作畫面。點一下看大圖。</p>
+        </div>
+      </figure>
+    </div>
+  </section>
+
+  <!-- MYID -->
+  <section id="myid">
+    <div class="chapter-head">
+      <span class="knot" data-star="blue"></span>
+      <p class="years">2003–2015</p>
+      <h2 class="chapter-title">在 myIT-School 與 myID，由設計總監做到總經理</h2>
+    </div>
+    <div class="story">
+      <p>一次因緣把我帶進教育。2003 年，一家位於科技大學內的教育科技公司請我加入，我由設計團隊主管做起，在香港和廣州建立團隊，之後做過銷售、市場、產品研發和售後服務，2008 年起擔任總經理。</p>
+      <p>設計師想的是「這個畫面美不美、順不順」；經理人要想的，是「這盤生意撐不撐得住、這班人帶不帶得動」。這十二年，我開始學習怎樣把一個好念頭，做成學校長期依賴的東西。</p>
+    </div>
+    <div class="stats">
+      <div class="stat"><b><span class="count" data-to="650">650</span>+</b><span>用過方案的中小幼、團體和公營機構（2014 年）</span></div>
+      <div class="stat"><b><span class="count" data-to="1150">1,150</span></b><span>間中小學使用我們為教育局研發的聯館目錄平台</span></div>
+      <div class="stat"><b><span class="count" data-to="7">7</span> 年</b><span>Library Master 連續成為最多港澳學校採用的電子圖書館系統</span></div>
+    </div>
+    <ul class="facts">
+      <li><b>2004</b><span>參與優質教育基金項目，負責首部小學生英文科電子書及教學平台的軟件設計及開發，與多間機構一同實現</span></li>
+      <li><b>2005</b><span>微笑學與教平台獲 Microsoft Regional Winning Customer Award</span></li>
+      <li><b>2008</b><span>學生成長檔案方案 myProfile+ 獲香港資訊及通訊科技獎最佳商業系統（產品）優異證書</span></li>
+      <li><b>2009</b><span>與香港應用科技研究院等伙伴推出「myID 隨身學電子書包」，首 10 間先導學校試用；同年澳門教青局撥款予官校採用 myIT-School 電子校園方案</span></li>
+      <li><b>2010</b><span>myID 隨身學電子書包正式推出市場，於香港書展及商務印書館公開發售</span></li>
+      <li><b>2011</b><span>Library Master OPAC 2.0 獲香港資訊及通訊科技獎「學習．生活」銅獎</span></li>
+      <li><b>2012</b><span>與佳能（香港）推出平板電子改卷方案 S-MARK，並成立 CEP 電子校園方案設計團隊</span></li>
+      <li><b>2013</b><span>S-MARK 獲 Hong Kong ICT Awards 2013 Best SME ICT Award Special Mention；推出 myID Channel 家校通訊 App</span></li>
+      <li><b>2014–2017</b><span>香港電子學習聯盟（eLC）首席技術顧問</span></li>
+    </ul>
+    <div class="awards">
+      <figure class="fig"><button data-lb data-cap="2011 年香港資訊及通訊科技獎頒獎典禮，Library Master OPAC 2.0 獲銅獎。"><img src="img/p18_2.webp" width="555" height="414" alt="Adam Chan 在 2011 年香港資訊及通訊科技獎頒獎禮手持獎座" loading="lazy"></button><figcaption><b>2011</b> 資訊及通訊科技獎銅獎</figcaption></figure>
+      <figure class="fig"><button data-lb data-cap="Hong Kong ICT Awards 2013 頒獎台，S-MARK 智能評卷方案獲 Best SME ICT Award Special Mention。"><img src="img/p18_1.webp" width="650" height="413" alt="Hong Kong ICT Awards 2013 頒獎台上的合照" loading="lazy"></button><figcaption><b>2013</b> S-MARK 獲 ICT Awards 嘉許</figcaption></figure>
+      <figure class="fig"><button data-lb data-cap="佳能（香港）網站上的 S-MARK 智能評卷方案介紹頁。"><img src="img/p18_3.webp" width="1187" height="650" alt="佳能香港網站的 S-MARK 方案頁面" loading="lazy"></button><figcaption><b>2012</b> 與佳能合作的 S-MARK</figcaption></figure>
+    </div>
+    <div class="duo">
+      <figure class="fig"><button data-lb data-cap="myID 隨身學電子書包的產品宣傳及陳列。"><img src="img/p19_1.webp" width="1434" height="513" alt="myID 隨身學電子書包產品圖及店內陳列" loading="lazy"></button><figcaption><b>2009</b> myID 隨身學電子書包：香港首部專為中小學生設計的校園電子書包</figcaption></figure>
+      <figure class="fig"><button data-lb data-cap="2009 年 myID 隨身學的傳媒報導拼貼，包括 Now、TVB、ATV、南華早報及鳳凰衛視。"><img src="img/p19_2.webp" width="1455" height="713" alt="2009 年電子書包相關報章及電視報導拼貼" loading="lazy"></button><figcaption>電子書包獲四十多項傳媒報導。看片段：<a href="https://www.youtube.com/watch?v=DBveOoH3Qz8" target="_blank" rel="noopener">Now 時事全方位</a>、<a href="https://www.youtube.com/watch?v=wCSRl1HyzUc" target="_blank" rel="noopener">TVB 新聞</a>、<a href="https://www.youtube.com/watch?v=HT8vogy06rM" target="_blank" rel="noopener">南華早報</a></figcaption></figure>
+    </div>
+  </section>
+
+  <!-- GRWTH -->
+  <section id="grwth" class="grwth">
+    <div class="chapter-head">
+      <span class="knot" data-star="red"></span>
+      <p class="years">2015–2022</p>
+      <h2 class="chapter-title">GRWTH：讓孩子的成長被看見</h2>
+      <p class="lede">2015 年，我離開工作十多年的安穩位置，和太太 Jay 及幾位合夥創辦人由零開始，創立 GRWTH，讀音 Growth，成長。我們以學生成長為中心，把學校、家庭和社區接成一個教育生態圈。</p>
+    </div>
+    <div class="stats" style="margin:0 0 56px">
+      <div class="stat"><b>約 <span class="count" data-to="300">300</span></b><span>間香港學校曾在同一平台處理通訊、活動、繳費和學習支援</span></div>
+      <div class="stat"><b><span class="count" data-to="200">200</span>+</b><span>家社區機構加盟 GRWTH 社區（2019 年）</span></div>
+      <div class="stat"><b><span class="count" data-to="10">10</span> 萬+</b><span>名學生受惠於疫情期間的雲課堂支援</span></div>
+    </div>
+    <p class="hint">向下捲動，時間線會向左移；手機上可左右滑動。</p>
+    <div class="track-wrap">
+      <div class="track">
+        <article class="yr">
+          <span class="yr-num">2015</span>
+          <h3>一間沒有窗的小房間</h3>
+          <figure class="fig"><button data-lb data-cap="前海深港青年夢工場合照。GRWTH 為前海深港青年夢工場計劃成員之一。"><img src="img/g6a.webp" width="1182" height="519" alt="前海深港青年夢工場標誌石前的大合照" loading="lazy"></button></figure>
+          <p>頭幾個月，我和 Jay 在股東公司裡分隔出來的小房間工作。手上還沒有產品，只有一句寫給自己看的話：「釋放數據力量，讓孩子自信地擁抱將來。」憑多年累積的信任，加上合夥創辦人的陣容，十幾間先導學校先簽下合作意向。</p>
+          <p class="note" style="color:var(--red)">12 月 5 日，一千多架寫上夢想的紙飛機，從孩子手裡飛上灰色的天。</p>
+          <ul><li>成為數碼港培育計劃成員</li><li>前海深港青年夢工場計劃成員</li></ul>
+        </article>
+        <article class="yr">
+          <span class="yr-num">2016</span>
+          <h3>走出去，把想法講清楚</h3>
+          <div class="pair">
+            <figure class="fig" style="flex:1.4"><button data-lb data-cap="2016 年 1 月，經香港青年協會安排，與香港 IT 業界代表到禮賓府，與 Elon Musk 及時任特首交流。"><img src="img/g5a.webp" width="771" height="552" alt="Adam Chan 與 IT 業界代表、Elon Musk 及時任特首在禮賓府合照" loading="lazy"></button></figure>
+            <figure class="fig" style="flex:.744"><button data-lb data-cap="2016 年 1 月，Adam Chan 與 Elon Musk 在禮賓府合照。"><img src="img/g6e.webp" width="384" height="516" alt="Adam Chan 與 Elon Musk 在禮賓府合照" loading="lazy"></button></figure>
+          </div>
+          <p>經香港青年協會安排，我和一眾 IT 業界代表到禮賓府，與 Elon Musk 及時任特首交流，分享香港創科業界的特色和發展。</p>
+          <ul><li>1 月：獲 M21 邀請出席「施政 ONLINE」，與時任特首及創新及科技局局長交流創科與教育</li><li>2016–17：負責 TouchEnglish 項目（中信銀行國際贊助、電子學習聯盟主理）的學界推廣，向 30 多間小學提供線上英語自學平台</li></ul>
+        </article>
+        <article class="yr">
+          <span class="yr-num">2017</span>
+          <h3>每個孩子都有自己的 No.1</h3>
+          <figure class="fig"><button data-lb data-cap="學界活動拼貼：夢想講座、學藝交流及校園活動。"><img src="img/p04_2.webp" width="1465" height="830" alt="GRWTH 在不同學校舉辦活動的相片拼貼" loading="lazy"></button></figure>
+          <ul><li>CoCoon Pitch Night 2017 亞軍</li><li>2017–18：統籌 50 多間學校的夢想講座，邀請運動員、藝人與學生及家長分享</li><li>8 月：獲數碼港邀請，向政務司司長分享 GRWTH 方案</li></ul>
+        </article>
+        <article class="yr">
+          <span class="yr-num">2018</span>
+          <h3>找到把布縫起來的那根針</h3>
+          <figure class="fig"><button data-lb data-cap="2018 年 10 月，GRWTH 聯同 Mastercard 主辦、滙豐及數碼港協辦的「香港教育界電子貨幣促進計劃」在數碼港 SmartSpace 8 正式向學界發布。"><img src="img/p04_launch.webp" width="1122" height="479" alt="香港教育界電子貨幣促進計劃發布會合照" loading="lazy"></button></figure>
+          <p>收費是家長每個月一定會做的事。我們獲 Mastercard、滙豐、數碼港及 10 間先導學校支持，推出香港首個 In-App 綜合支付渠道的教育界流動繳費方案。鳳溪第一小學首日，超過六成家長即場完成下載和付款。</p>
+          <ul><li>「香港教育界電子貨幣促進計劃」獲逾 70 間媒體關注</li><li>社區資訊頻道一星期內增至 100 間機構加盟</li></ul>
+        </article>
+        <article class="yr">
+          <span class="yr-num">2019</span>
+          <h3>金獎，和逆風裡的 Pre-A 輪</h3>
+          <figure class="fig"><button data-lb data-cap="GRWTH Pay 榮獲 2019 香港資訊及通訊科技獎：智慧生活（生活時尚）獎金獎。"><img src="img/p03_3.webp" width="1120" height="539" alt="2019 香港資訊及通訊科技獎頒獎台及金獎獎座" loading="lazy"></button></figure>
+          <ul><li>GRWTH Pay 獲香港資訊及通訊科技獎智慧生活（生活時尚）獎金獎</li><li>帶領 GRWTH 完成 Pre-A 輪融資</li><li>與明報親子平台 HappyPaMa 合作；GRWTH 社區逾 200 家機構支持</li><li>數碼港「敢創同行」故事 #01：穿越創業夢</li></ul>
+          <button class="vid-card" data-lb data-yt="mxYfYL_goFs" data-cap="數碼港官方介紹片：【敢創同行第二季：穿越創業夢 - 陳駿霖 Adam】" data-url="https://go.cyberport.hk/stories-adam-grwth.php">
+            <span class="vid-thumb"><img src="https://i.ytimg.com/vi/mxYfYL_goFs/mqdefault.jpg" width="320" height="180" alt="" loading="lazy"><span class="play play-sm" aria-hidden="true"></span></span>
+            <span class="vid-text"><b>看影片：數碼港官方介紹片</b><span>敢創同行第二季：穿越創業夢</span></span>
+          </button>
+          <p class="note">「勿忘記：成功是大家一起合作和努力的成果。」</p>
+        </article>
+        <article class="yr">
+          <span class="yr-num">2020</span>
+          <h3>停課，但成長不能停</h3>
+          <figure class="fig"><button data-lb data-cap="GRWTH「香港教育界雲點播支援計劃」獲香港電腦學會 Outstanding Education Award（2020 年 12 月）。"><img src="img/p03_2.webp" width="700" height="576" alt="Adam Chan 在網上頒獎禮接受香港電腦學會 Outstanding Education Award" loading="lazy"></button></figure>
+          <p>疫情一來，我們把雲端家校通訊平台免費開放給所有有需要的學校和社福團體，再與騰訊雲合作推出雲端點播（VOD）教學支援，最終支援接近三百間學校、幼稚園和教育中心。</p>
+          <ul><li>VOD 雲課堂系統獲香港電腦學會 Outstanding Education Award</li></ul>
+        </article>
+        <article class="yr">
+          <span class="yr-num">2021</span>
+          <h3>A 輪，和更重的承擔</h3>
+          <figure class="fig"><button data-lb data-cap="數碼港 Creative Micro Fund 及培育計劃頒發的感謝狀：感謝 Adam Chan 擔任 2023/24 年度導師。"><img src="img/cyberport_cmf_mentor_2023-24.webp" width="1464" height="1034" alt="數碼港頒發給 Adam Chan 的導師感謝狀" loading="lazy"></button></figure>
+          <ul><li>2021–2022：帶領 GRWTH 完成 A 輪融資</li><li>2021–2024：數碼港 Creative Micro Fund 導師及合作伙伴</li></ul>
+          <p>成功之後，壓力才真正開始。我學到的一課：創辦人要及早說清楚，甚麼可以討論，甚麼不能再讓。</p>
+        </article>
+        <article class="yr">
+          <span class="yr-num">2022</span>
+          <h3>ECA Expo：把課外活動帶進博覽會</h3>
+          <figure class="fig"><button data-lb data-cap="ECA Expo 2022 課外活動教材及用品博覽暨課外閱讀文化節開幕。GRWTH 為大會指定手機應用程式及學界推廣伙伴之一。"><img src="img/p03_1.webp" width="781" height="586" alt="ECA Expo 2022 開幕禮台上合照" loading="lazy"></button></figure>
+          <ul><li>協辦及推動香港首屆課外活動節暨教材及用品博覽（ECA Expo 2022），向學界派出數十萬張入場券，逾 100 個參展商參與</li><li>GRWTH App 成為大會指定的流動應用程式</li></ul>
+        </article>
+        <article class="yr yr-end">
+          <span class="yr-num">9.30</span>
+          <h3>畢業，翻開下一頁</h3>
+          <p>2022 年 9 月 30 日，我和太太 Jay 從 GRWTH 畢業。八年前帶着一個夢想由零開始；交棒時，公司資本充足、站得穩。臨別，我送給同事一本《小王子》。</p>
+          <blockquote>「我即將去走一段新的路，去尋找生命裡更多的星星。」</blockquote>
+          <a class="next-link" href="#second">下一站：英國，第二人生</a>
+        </article>
+      </div>
+    </div>
+    <ul class="facts" style="margin-top:56px">
+      <li><b>評審</b><span>香港青年協會「讚好校園」（2015）、萬均教育集團「天水圍的孩子」（2018）、青年成就《JA 學生營商體驗計劃》（2015、2017、2018）</span></li>
+      <li><b>分享</b><span>多次與教育局合辦教師培訓課程，向學界分享電子科技及大數據於才華配對的應用</span></li>
+    </ul>
+    <div class="case" id="grwth-pay">
+      <h3 class="case-title">代表作：GRWTH Pay × Mastercard「香港教育界電子貨幣促進計劃」</h3>
+      <div class="case-grid">
+        <div>
+          <figure class="fig video">
+            <button data-lb data-yt="LstRq1sNaLc" data-cap="GRWTH x Mastercard「教育界電子貨幣促進計劃」：GRWTH Pay（GRWTH 官方影片，繁體字幕）">
+              <img src="https://i.ytimg.com/vi/LstRq1sNaLc/maxresdefault.jpg" width="1280" height="720" alt="GRWTH Pay 介紹影片封面" loading="lazy">
+              <span class="play" aria-hidden="true"></span>
+            </button>
+            <figcaption><b>看影片</b>　GRWTH x Mastercard「教育界電子貨幣促進計劃」：GRWTH Pay</figcaption>
+          </figure>
+          <div class="story" style="margin-top:28px">
+            <p>學校一年到頭要收家長的錢：活動費、書簿費、雜費。通告、簽回、付款和對帳本來是分開的幾件事。我們用十個月，由零做出一套多元化手機支付及對帳系統：家長用慣用的渠道付款，錢一進來，零散的交易自動歸位，學校會計一鍵對帳。</p>
+            <p>收費只是入口，替學校省下那本帳，才是真功夫。這是整個團隊一邊學、一邊做的成果。</p>
+          </div>
+          <ul class="facts">
+            <li><b>伙伴</b><span>GRWTH 聯同 Mastercard 主辦，滙豐及數碼港協辦；首批 10 間先導學校</span></li>
+            <li><b>突破</b><span>香港首個 In-App 綜合支付渠道的教育界流動繳費方案</span></li>
+            <li><b>渠道</b><span>Mastercard、Visa 信用卡，以至 AlipayHK、微信支付、Tap &amp; Go 等電子錢包</span></li>
+            <li><b>首日</b><span>鳳溪第一小學繳費通告發出首日，超過六成家長即場完成下載和付款</span></li>
+            <li><b>迴響</b><span>計劃獲逾 70 間媒體關注</span></li>
+            <li><b>獎項</b><span>2019 香港資訊及通訊科技獎：智慧生活（生活時尚）獎金獎</span></li>
+          </ul>
+        </div>
+        <div class="case-proof">
+          <figure class="fig"><button data-lb data-cap="星島日報 IT 廣場，2018 年 10 月 10 日：〈教育金融科技結合 GRWTH 力減家校行政負擔〉。"><img src="img/singtao_2018-10-10.webp" width="1199" height="839" alt="星島日報 IT 廣場整版報導：GRWTH 力減家校行政負擔" loading="lazy"></button><figcaption><b>星島日報 IT 廣場</b>（2018 年 10 月 10 日）</figcaption></figure>
+          <figure class="fig"><button data-lb data-more="p13_2" data-cap="明報港聞，2018 年 11 月 12 日〈家校社區連線 App 伴學生成長〉報導內的製圖。"><img src="img/mingpao_2018-11-12_graphic.webp" width="1167" height="882" alt="明報製圖：家校通訊應用程式 Grwth 的三大功能" loading="lazy"></button><figcaption><b>明報 港聞</b>（2018 年 11 月 12 日）；放大後可看整版</figcaption></figure>
+        </div>
+      </div>
+    </div>
+    <h3 class="sub">業界交流</h3>
+    <div class="awards gallery">
+      <figure class="fig"><button data-lb data-cap="M21「施政 ONLINE」節目，2016 年 1 月。"><img src="img/g5c.webp" width="1023" height="561" alt="M21 施政 ONLINE 節目錄影現場" loading="lazy"></button><figcaption>M21「施政 ONLINE」（2016）</figcaption></figure>
+      <figure class="fig"><button data-lb data-cap="M21「施政 ONLINE」節目錄影後的自拍合照。"><img src="img/g5g.webp" width="618" height="357" alt="M21 施政 ONLINE 節目後的自拍合照" loading="lazy"></button><figcaption>節目後的合照</figcaption></figure>
+      <figure class="fig"><button data-lb data-cap="禮賓府內的交流會，2016 年 1 月。"><img src="img/g5f.webp" width="600" height="441" alt="禮賓府客廳內的交流會" loading="lazy"></button><figcaption>禮賓府交流會（2016）</figcaption></figure>
+      <figure class="fig"><button data-lb data-cap="數碼港活動上展示 GRWTH。"><img src="img/g5b.webp" width="744" height="552" alt="數碼港活動上手持 GRWTH 標誌的合照" loading="lazy"></button><figcaption>數碼港活動</figcaption></figure>
+      <figure class="fig"><button data-lb data-cap="數碼港「Celebrate Cyberport Community 1000」活動。"><img src="img/g5e.webp" width="591" height="441" alt="Adam Chan 在數碼港 1000 社群活動簽名牆前" loading="lazy"></button><figcaption>數碼港 Community 1000</figcaption></figure>
+      <figure class="fig"><button data-lb data-cap="CoCoon 活動上接受支票。"><img src="img/g5d.webp" width="408" height="561" alt="在 CoCoon 活動上手持支票合照" loading="lazy"></button><figcaption>CoCoon</figcaption></figure>
+      <figure class="fig"><button data-lb data-cap="讚好校園表揚計劃 2015 頒獎禮暨分享會。"><img src="img/g5h.webp" width="798" height="357" alt="讚好校園表揚計劃 2015 頒獎禮大合照" loading="lazy"></button><figcaption>讚好校園表揚計劃 2015</figcaption></figure>
+      <figure class="fig"><button data-lb data-cap="第二屆 DreamStarter 兒童夢想活動。"><img src="img/g6b.webp" width="642" height="393" alt="手持 DREAM 字牌的合照" loading="lazy"></button><figcaption>DreamStarter 兒童夢想活動</figcaption></figure>
+      <figure class="fig"><button data-lb data-cap="WorldDidac Asia 2015 分享。"><img src="img/g6c.webp" width="699" height="393" alt="在 WorldDidac Asia 2015 台上分享" loading="lazy"></button><figcaption>WorldDidac Asia 2015</figcaption></figure>
+      <figure class="fig"><button data-lb data-cap="HKICT Awards 2017 大合照。"><img src="img/g6d.webp" width="825" height="516" alt="HKICT Awards 2017 大合照" loading="lazy"></button><figcaption>HKICT Awards 2017</figcaption></figure>
+      <figure class="fig"><button data-lb data-cap="學界推廣活動合照。"><img src="img/g6f.webp" width="603" height="444" alt="學界推廣活動合照" loading="lazy"></button><figcaption>學界推廣活動</figcaption></figure>
+      <figure class="fig"><button data-lb data-cap="「新地運動行善在校園」計劃，2017 年 10 月：由新鴻基地產贊助，GRWTH 協辦。"><img src="img/g6g.webp" width="624" height="444" alt="新地運動行善在校園計劃合照，眾人穿紅白 T 恤" loading="lazy"></button><figcaption>新地運動行善在校園（2017 年 10 月）</figcaption></figure>
+      <figure class="fig"><button data-lb data-cap="PCM：學校如何利用大數據促進學生的體藝發展（2018 年 4 月）。"><img src="img/p15_2.webp" width="1399" height="584" alt="GRWTH 大數據相關報導及宣傳物料" loading="lazy"></button><figcaption>PCM（2018 年 4 月）</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- PRESS -->
+  <section id="press">
+    <div class="chapter-head">
+      <span class="knot" data-star="yellow"></span>
+      <p class="years">2016–2020</p>
+      <h2 class="chapter-title">別人怎樣記錄這段路</h2>
+      <p class="lede">報章、雜誌和電視台的訪問與報導。點一下可看大圖；有連結的，可以直接看原文或片段。</p>
+    </div>
+    <div class="press-tools" role="group" aria-label="切換顯示方式">
+      <button class="btn" data-view="grid" aria-pressed="true">相片牆</button>
+      <button class="btn" data-view="list" aria-pressed="false">按年份清單</button>
+    </div>
+    <div class="press" id="pressWall" data-view="grid"></div>
+  </section>
+
+  <!-- FPV -->
+  <section id="fpv">
+    <div class="chapter-head">
+      <span class="knot" data-star="blue"></span>
+      <p class="years">2015–2018</p>
+      <h2 class="chapter-title">業餘興趣：FPV 穿越機，帶進 STEM 課堂</h2>
+    </div>
+    <div class="split">
+      <div>
+        <p class="story">我把自己玩穿越機的興趣，變成學校的 STEM 課堂活動。多次獲學校、電台及電視台邀請，分享無人機和穿越機的玩法，以及怎樣把它們轉化成教學。</p>
+        <ul class="facts">
+          <li><b>2015</b><span><a href="https://bit.ly/2D0obsK" target="_blank" rel="noopener">RTHK《生活黑客》：衝上雲霄 DIY</a></span></li>
+          <li><b>2017</b><span><a href="https://bit.ly/2L4lHeb" target="_blank" rel="noopener">種下孩子心中的飛行種子．用心引領成長</a></span></li>
+          <li><b>2017–18</b><span><a href="https://www.youtube.com/watch?v=seJPpM00_oM" target="_blank" rel="noopener">TVB《Y Angle》：Futurism FPV Racers @ 鳳溪第一小學</a></span></li>
+          <li><b>2017–18</b><span><a href="https://www.youtube.com/watch?v=7HoXYPIxfi8" target="_blank" rel="noopener">TVB 體育台《Sportour 與運動員同行》EP11</a></span></li>
+        </ul>
+      </div>
+      <figure class="fig"><button data-lb data-cap="FPV 穿越機：戴上 FPV 眼鏡、電視節目拍攝及工作坊。"><img src="img/p21_2.webp" width="513" height="513" alt="Adam Chan 戴 FPV 眼鏡及電視節目截圖拼貼" loading="lazy"></button><figcaption>FPV 眼鏡、節目拍攝與工作坊</figcaption></figure>
+    </div>
+    <div class="awards">
+      <figure class="fig"><button data-lb data-cap="TVB 節目拍攝：介紹 FPV 穿越機。"><img src="img/p21_1.webp" width="697" height="518" alt="Adam Chan 在課室接受電視節目訪問，背景是穿越機賽道" loading="lazy"></button><figcaption>電視節目拍攝</figcaption></figure>
+      <figure class="fig"><button data-lb data-cap="與學校教師進行穿越機 STEM 專業發展活動。"><img src="img/p21_4.webp" width="517" height="369" alt="Adam Chan 與教師團隊合照，手持橫額" loading="lazy"></button><figcaption>教師 STEM 專業發展</figcaption></figure>
+      <figure class="fig"><button data-lb data-cap="學校 FPV 及 STEM 活動拼貼。"><img src="img/p21_5.webp" width="1503" height="649" alt="學校穿越機活動相片拼貼" loading="lazy"></button><figcaption>校園工作坊</figcaption></figure>
+      <figure class="fig"><button data-lb data-cap="FPV 活動及 TVB《Y Angle》節目畫面。"><img src="img/p21_3.webp" width="1351" height="380" alt="FPV 活動合照及電視節目畫面" loading="lazy"></button><figcaption>《Y Angle》節目</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- SECOND LIFE -->
+  <section id="second" class="second">
+    <div class="chapter-head">
+      <span class="knot" data-star="teal"></span>
+      <p class="years">2022–今天</p>
+      <h2 class="chapter-title">第二人生：享受慢生活，用最新的技術經營它</h2>
+    </div>
+    <div class="story">
+      <p>離開 GRWTH 後、去英國之前，我和太太從入夜一直談到天亮，把過去多年像作品集一樣逐項排出來看。我們只看事實：做過甚麼，學會甚麼。原來那些本事早就長在身上，不會跟着任何一張名片消失。</p>
+      <p>2023 年底，我們到英國生活，住在鄉郊，行公園、走湖區、逛博物館。2022 年在香港已開始接觸 AI，到了英國，它成了一副剛好接上我舊本領的新工具。</p>
+    </div>
+    <ul class="roles">
+      <li><b>2022–2023</b><div><strong>Adia Investment Institute 顥森投資學院 COO</strong><span>打理投資學院營運</span></div></li>
+      <li><b>2023 起</b><div><strong>香港教育行業生態圈發展及 AI 業務轉型顧問</strong><span>為企業團隊提供 AI 應用培訓</span></div></li>
+      <li><b>現時</b><div><strong>明報集團 WAW Creation 業務轉型及 AI in workplace 發展顧問</strong><span>把教育生態圈的視野，用在一家傳統媒體的業務轉型上</span></div></li>
+      <li><b>現時</b><div><strong>「香港學校通告智能助手」</strong><span>與黃校長合作開發，每日自動整理教育局通告的摘要、行動項和到期提示；由明報教育服務及 School Choice 贊助支持</span></div></li>
+      <li><b>現時</b><div><strong>Agent Handoff Kit 作者</strong><span>一套 AI 代理治理及交接工具</span></div></li>
+      <li><b>2026</b><div><strong>電子書《一個教育科技創業者的成長課》</strong><span>副題：在夢想與歷程之間，活出本來的我。繁中及英文版，可免費在線閱讀或下載 EPUB／PDF。</span><a class="next-link book-link" href="https://memoir.cobeing.uk/" target="_blank" rel="noopener">閱讀電子書</a></div></li>
+    </ul>
+    <svg class="miro" viewBox="0 0 360 200" aria-hidden="true">
+      <path d="M10 150 C 60 40, 130 40, 170 120 S 280 190, 340 60" fill="none" stroke="var(--ink)" stroke-width="1.5"/>
+      <circle cx="170" cy="120" r="16" fill="var(--teal)"/>
+      <circle cx="300" cy="70" r="9" fill="var(--yellow)"/>
+      <path d="M58 70 a26 26 0 1 0 1 0" fill="var(--red)"/>
+      <g stroke="var(--ink)" stroke-width="1.5" transform="translate(240 160)"><path d="M-9 0H9M0-9V9M-6-6L6 6M-6 6L6-6"/></g>
+      <circle cx="110" cy="170" r="3" fill="var(--ink)"/>
+    </svg>
+  </section>
+
+  <!-- VALUES -->
+  <section id="values">
+    <div class="chapter-head">
+      <span class="knot" data-star="red"></span>
+      <h2 class="chapter-title">三句帶在身上的話</h2>
+    </div>
+    <div class="values">
+      <div class="value"><h3>被看見</h3><blockquote>「一個孩子真正需要的，是被看見。」</blockquote><p>2015 年，一個小女孩在紙飛機上寫：想幫媽媽工作，讓媽媽多點時間陪她。</p></div>
+      <div class="value"><h3>重新學一次</h3><blockquote>「最大的考驗，往往不是學一樣你不會的東西，而是放下一樣你太會的東西。」</blockquote><p>由設計師走到 CEO，靠的是 unlearn and relearn。</p></div>
+      <div class="value"><h3>嘆</h3><blockquote>「嘆，不是停下不走；是終於懂得，一邊前行，一邊讚嘆此刻。」</blockquote><p>我和 Jay 給自己造的一個小徽章。</p></div>
+    </div>
+  </section>
+
+  <!-- ASK -->
+  <section id="ask">
+    <div class="chapter-head">
+      <span class="knot" data-star="yellow"></span>
+      <h2 class="chapter-title">問 Adam</h2>
+      <p class="lede">常被問到的幾條問題。答案摘自我的回憶錄<a href="https://memoir.cobeing.uk/" target="_blank" rel="noopener">《一個教育科技創業者的成長課》</a>。</p>
+    </div>
+    <div class="ask">
+      <details><summary>為甚麼離開安穩的總經理位置去創業？</summary><div class="ans"><p>做了十年以上，我越來越清楚看見一道牆：把系統賣給學校，碰不到孩子怎樣長大、家長怎樣參與這一層。要把學校、家庭和社區連起來，留在原地做不到。</p><p>不符合我核心價值的工作，再大，我也提不起勁；可是真正值得做的事，再難，我都會想辦法。</p></div></details>
+      <details><summary>由設計師變成 CEO，最難的是甚麼？</summary><div class="ans"><p>設計師和 CEO 南轅北轍。知識上要不斷學習，心態上要不斷 unlearn and relearn，把舊的自己忘掉，重新學一次。真正讓我學得下去的，是我從來不是一個人在學、一個人在扛。</p></div></details>
+      <details><summary>「AI 生活策展人」是甚麼意思？</summary><div class="ans"><p>我和太太選了一種生活態度：享受簡樸的慢生活，但用最新的技術和視野去經營它。對一個做了大半輩子「用科技解決問題」的人來說，AI 不是一場要追趕的潮流，更像一副剛好接上舊本領的新工具。</p></div></details>
+      <details><summary>現在最想做的是甚麼？</summary><div class="ans"><p>兜兜轉轉這麼多年，我做的還是最初那一件事：讓教育裡的人，輕省一點；讓真正重要的東西，被看見。</p></div></details>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="chapter-head">
+      <span class="knot" data-star="blue"></span>
+      <h2 class="chapter-title">聯絡我</h2>
+    </div>
+    <div class="contact">
+      <a href="mailto:i.adamchan@gmail.com">i.adamchan@gmail.com</a>
+      <a href="https://www.facebook.com/chan.adam" target="_blank" rel="noopener">Facebook</a>
+    </div>
+    <p class="small" style="margin-top:20px">曾任香港教育署課程發展小組資訊科技項目顧問、香港電子學習聯盟首席技術顧問、香港數碼港 Creative Micro Fund 導師。多次獲教育局、香港數碼港及業界活動邀請擔任分享嘉賓。</p>
+  </section>
+</main>
+
+
+<dialog class="lb" id="lb" aria-label="圖片放大">
+  <div class="lb-inner">
+    <button class="btn lb-close" id="lbClose">關閉</button>
+    <img id="lbImg" alt="">
+    <iframe id="lbVid" class="lb-vid" title="影片" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen hidden></iframe>
+    <div class="lb-cap"><span id="lbCap"></span><span class="lb-actions"><button class="btn" id="lbNext" hidden>看整版</button><a id="lbLink" target="_blank" rel="noopener" hidden>看原文或片段</a></span></div>
+  </div>
+</dialog>
+
+<script>
+// 媒體報導資料：日期、媒體、標題、圖片、連結（來自 EduTech Journey 2024）
+const PRESS = [
+  {d:"2016-05", o:"GRWTH", t:"讚好校園訪問", img:"p16_2", w:1444, h:490, url:"https://bit.ly/2PfIYwQ"},
+  {d:"2017", o:"數碼港", t:"Start-up Winning Formula：我的科技．教育夢", img:"p16_1", w:1432, h:1169, url:"https://www.youtube.com/watch?v=i7LKUVl8xrc"},
+  {d:"2018-05", o:"HK01", t:"【創業家過招】傳統教育已到轉角位？EdTech 創業：目光在 20 年後", img:"p15_1", w:1303, h:727, url:"https://bit.ly/2LbXmEg"},
+  {d:"2018-10", o:"Mastercard × GRWTH", t:"「香港教育界電子貨幣促進計劃」獲逾 70 間媒體關注", img:"p14_2", w:1164, h:1196},
+  {d:"2018-10-10", o:"星島日報 IT 廣場", t:"GRWTH 力減家校行政負擔：教育金融科技結合", img:"singtao_2018-10-10", w:1199, h:839},
+  {d:"2018-11-12", o:"明報 港聞", t:"家校社區連線 App 伴學生成長", img:"mingpao_2018-11-12_graphic", w:1167, h:882, more:"p13_2"},
+  {d:"2019", o:"數碼港 敢創同行", t:"第二季宣傳海報", img:"p07_1", w:1344, h:1657},
+  {d:"2019", o:"數碼港 敢創同行", t:"故事 #01：穿越創業夢（附官方介紹片）", img:"p08_1", w:1297, h:1383, url:"https://go.cyberport.hk/stories-adam-grwth.php", yt:"mxYfYL_goFs"},
+  {d:"2020-01", o:"HK01 經濟人訪", t:"教育科技不只線上課程：GRWTH 小苗漸成大樹", img:"p13_1", w:938, h:528, url:"https://grwth.hk/【hk01-經濟人訪】教育科技不只線上課程-grwth小苗漸成/"},
+  {d:"2020-02", o:"經濟日報", t:"教育科技掀熱潮：GRWTH 支援網上學習", img:"p12_1", w:1086, h:1650, url:"https://inews.hket.com/article/2573526/"},
+  {d:"2020-05", o:"TVB《財經透視》", t:"教育科技的發展潛力", img:"p11_2", w:909, h:479},
+  {d:"2020-07", o:"明報 ONLife", t:"抗疫期間引領「學習」走進數碼發展新時代", img:"p11_1", w:1332, h:1070},
+  {d:"2020-08", o:"TVB《看出個未來》", t:"第 16 集", img:"p10_2", w:1246, h:576},
+  {d:"2020-09", o:"Youth Hong Kong", t:"Startups find solutions", img:"p10_1", w:1012, h:1299},
+  {d:"2020-10", o:"星島日報 創科廣場", t:"騰訊雲夥教育初創 VOD 支援網上教學", img:"p09_2", w:1191, h:924},
+  {d:"2020-12", o:"Open School 教育特刊", t:"教育生態再進化", img:"p09_1", w:1294, h:799}
+];
+const wall = document.getElementById('pressWall');
+const fmtDate = d => d.split('-').map((n,i) => +n + ['年','月','日'][i]).join(' ');
+wall.innerHTML = PRESS.map(p => `
+  <figure class="press-item">
+    <button data-lb data-cap="${p.o}：${p.t}（${fmtDate(p.d)}）" ${p.url?`data-url="${p.url}"`:''} ${p.more?`data-more="${p.more}"`:''} ${p.yt?`data-yt="${p.yt}"`:''}>
+      <img src="img/${p.img}.webp" width="${p.w}" height="${p.h}" alt="${p.o}報導：${p.t}" loading="lazy">
+      <div class="meta"><b>${p.d.replaceAll('-', '.')}</b>${p.o}｜${p.t}</div>
+    </button>
+  </figure>`).join('');
+
+// 燈箱：圖片（可多張）或 YouTube 影片
+const lb = document.getElementById('lb'), lbImg = document.getElementById('lbImg'),
+      lbVid = document.getElementById('lbVid'), lbNext = document.getElementById('lbNext'),
+      lbCap = document.getElementById('lbCap'), lbLink = document.getElementById('lbLink');
+let lbList = [], lbIdx = 0;
+const showImg = () => {
+  lbImg.src = lbList[lbIdx];
+  lbNext.hidden = lbList.length < 2;
+  lbNext.textContent = lbIdx === 0 ? '看整版' : '返回第一張';
+};
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-lb]'); if (!b) return;
+  const img = b.querySelector('img');
+  if (b.dataset.yt) {
+    lbImg.hidden = true; lbNext.hidden = true; lbVid.hidden = false;
+    lbVid.src = `https://www.youtube-nocookie.com/embed/${b.dataset.yt}?autoplay=1&rel=0`;
+  } else {
+    lbVid.hidden = true; lbVid.src = ''; lbImg.hidden = false;
+    lbList = [img.currentSrc || img.src, ...(b.dataset.more || '').split('|').filter(Boolean).map(n => `img/${n}.webp`)];
+    lbIdx = 0; lbImg.alt = img.alt; showImg();
+  }
+  lbCap.textContent = b.dataset.cap || (img && img.alt) || '';
+  if (b.dataset.url) { lbLink.href = b.dataset.url; lbLink.hidden = false; } else lbLink.hidden = true;
+  lb.showModal();
+});
+lbNext.onclick = () => { lbIdx = (lbIdx + 1) % lbList.length; showImg(); };
+document.getElementById('lbClose').onclick = () => lb.close();
+lb.addEventListener('click', e => { if (e.target === lb) lb.close(); });
+lb.addEventListener('close', () => { lbVid.src = ''; });
+
+// 列印：先展開所有問答
+document.getElementById('printBtn').onclick = () => window.print();
+addEventListener('beforeprint', () => document.querySelectorAll('.ask details').forEach(d => d.open = true));
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/Flip.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/SplitText.min.js"></script>
+<script>
+(() => {
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const hasGsap = typeof gsap !== 'undefined';
+  const main = document.getElementById('main');
+  const svg = document.querySelector('.thread');
+  const base = svg.querySelector('.thread-base'), ink = svg.querySelector('.thread-ink'), starsG = svg.querySelector('.stars');
+  const colors = {red:'var(--red)', yellow:'var(--yellow)', blue:'var(--blue)', teal:'var(--teal)'};
+  let knots = [], len = 0;
+
+  // 一條線：穿過每章的結點，像針線把人生各段縫起來
+  function buildThread(){
+    const mr = main.getBoundingClientRect();
+    const g = parseFloat(getComputedStyle(main).paddingLeft);
+    svg.setAttribute('width', g); svg.setAttribute('height', main.scrollHeight);
+    svg.style.height = main.scrollHeight + 'px';
+    knots = [...main.querySelectorAll('.knot')].map(k => {
+      const r = k.getBoundingClientRect();
+      return {x: g/2, y: r.top - mr.top, c: colors[k.dataset.star] || colors.blue};
+    });
+    const amp = Math.max(8, g/2 - 8);
+    let d = `M ${knots[0].x} ${knots[0].y}`;
+    for (let i = 1; i < knots.length; i++){
+      const a = knots[i-1], b = knots[i], dy = b.y - a.y, s = i % 2 ? 1 : -1;
+      d += ` C ${a.x + amp*s} ${a.y + dy*.33}, ${b.x - amp*s} ${b.y - dy*.33}, ${b.x} ${b.y}`;
+    }
+    base.setAttribute('d', d); ink.setAttribute('d', d);
+    len = ink.getTotalLength();
+    ink.style.strokeDasharray = len;
+    starsG.innerHTML = knots.map(k => `<g transform="translate(${k.x} ${k.y})"><g class="star"><path d="M-9 0H9M0-9V9M-6.4-6.4L6.4 6.4M-6.4 6.4L6.4-6.4" stroke="${k.c}" stroke-width="2.4" stroke-linecap="round"/><circle r="3.4" fill="${k.c}"/></g></g>`).join('');
+    knots.forEach(k => { k.len = lengthAtY(k.y); });
+  }
+  function lengthAtY(y){ // 以二分法找出線上某高度對應的長度
+    let lo = 0, hi = len;
+    for (let i = 0; i < 24; i++){ const m = (lo+hi)/2; ink.getPointAtLength(m).y < y ? lo = m : hi = m; }
+    return hi;
+  }
+  function drawTo(p){
+    const drawn = len * p;
+    ink.style.strokeDashoffset = len - drawn;
+    starsG.querySelectorAll('.star').forEach((s,i) => s.classList.toggle('lit', knots[i] && knots[i].len <= drawn + 2));
+  }
+
+  const progress = document.querySelector('.progress');
+  if (!hasGsap || reduce){
+    buildThread(); drawTo(1);
+    addEventListener('resize', () => { buildThread(); drawTo(1); });
+    addEventListener('scroll', () => {
+      const p = scrollY / (document.documentElement.scrollHeight - innerHeight);
+      progress.style.transform = `scaleX(${p})`;
+    }, {passive:true});
+  } else {
+    gsap.registerPlugin(ScrollTrigger, Flip, SplitText);
+
+    // 開場：名字逐字升起，只此一次
+    const split = new SplitText('.hero-name', {type:'chars', charsClass:'char'});
+    gsap.timeline({defaults:{ease:'power3.out'}})
+      .from(split.chars, {yPercent:110, opacity:0, duration:1, stagger:.12})
+      .from('.hero-en, .hero-role', {opacity:0, y:16, duration:.7, stagger:.1}, '-=.5')
+      .from('.portrait img', {clipPath:'circle(0% at 50% 50%)', duration:1.2, ease:'power2.inOut'}, '-=1')
+      .from('.plane', {x:-160, y:120, rotate:-20, opacity:0, duration:1.4, ease:'power2.out'}, '-=.9');
+
+    // GRWTH 時間線：桌面版捲動時橫向移動
+    const mm = gsap.matchMedia();
+    mm.add('(min-width: 901px)', () => {
+      const track = document.querySelector('.track'), wrap = document.querySelector('.track-wrap');
+      const dist = () => Math.max(0, track.scrollWidth - wrap.clientWidth);
+      gsap.to(track, {x: () => -dist(), ease:'none', scrollTrigger:{
+        trigger: wrap, start:'top 12%', end: () => '+=' + dist(), pin: '#grwth', pinSpacing:true,
+        scrub: .6, invalidateOnRefresh:true, anticipatePin:1
+      }});
+    });
+
+    // 線的描繪跟隨捲動
+    buildThread();
+    const draw = self => { drawTo(Math.min(1, self.progress * 1.04 + .03)); progress.style.transform = `scaleX(${self.progress})`; };
+    const threadST = ScrollTrigger.create({trigger: main, start:'top top', end:'bottom bottom', onUpdate: draw});
+    ScrollTrigger.addEventListener('refresh', () => { buildThread(); draw(threadST); });
+    draw(threadST);
+
+    // 數字由零跳上去
+    document.querySelectorAll('.count').forEach(el => {
+      const to = +el.dataset.to, o = {v:0};
+      ScrollTrigger.create({trigger: el, start:'top 88%', once:true, onEnter: () =>
+        gsap.to(o, {v:to, duration:1.6, ease:'power2.out', onUpdate: () => el.textContent = Math.round(o.v).toLocaleString('en')})});
+    });
+
+    // 媒體牆：相片牆與清單互換
+    document.querySelectorAll('.press-tools .btn').forEach(b => b.addEventListener('click', () => {
+      if (wall.dataset.view === b.dataset.view) return;
+      const state = Flip.getState('.press-item, .press-item img, .press-item .meta');
+      wall.dataset.view = b.dataset.view;
+      document.querySelectorAll('.press-tools .btn').forEach(x => x.setAttribute('aria-pressed', x === b));
+      Flip.from(state, {duration:.7, ease:'power2.inOut', stagger:.015, onComplete: () => ScrollTrigger.refresh()});
+    }));
+
+    addEventListener('load', () => ScrollTrigger.refresh());
+  }
+
+  // 只看重點：收起長文
+  const modeBtn = document.getElementById('modeBtn');
+  modeBtn.addEventListener('click', () => {
+    const apply = () => {
+      const facts = document.body.dataset.mode !== 'facts';
+      document.body.dataset.mode = facts ? 'facts' : 'story';
+      modeBtn.setAttribute('aria-pressed', facts);
+      modeBtn.textContent = facts ? '看完整故事' : '只看重點';
+    };
+    if (document.startViewTransition && !reduce) document.startViewTransition(apply).finished.then(() => hasGsap && ScrollTrigger.refresh());
+    else { apply(); hasGsap ? ScrollTrigger.refresh() : (buildThread(), drawTo(1)); }
+  });
+  if (!hasGsap){ // 沒有動畫庫時，媒體牆切換仍可用
+    document.querySelectorAll('.press-tools .btn').forEach(b => b.addEventListener('click', () => {
+      wall.dataset.view = b.dataset.view;
+      document.querySelectorAll('.press-tools .btn').forEach(x => x.setAttribute('aria-pressed', x === b));
+      buildThread(); drawTo(1);
+    }));
+  }
+})();
+</script>
+</body>
+</html>
